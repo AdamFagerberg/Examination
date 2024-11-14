@@ -1,0 +1,15 @@
+.menu-title {
+  padding-inline: 1.5rem;
+  color: var(--snow);
+  text-shadow: var(--text-shadow-large);
+}
+
+.homepage-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1.5rem;
+}
+
+.homepage-main {
+  background-color: var(--dark-mint);
+}

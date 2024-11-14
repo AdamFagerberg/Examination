@@ -1,0 +1,123 @@
+.cart-modal {
+  background-color: var(--snow);
+  border-color: var(--snow);
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.cart-empty {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.cart-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.4rem 0.8rem;
+}
+
+.cart-item {
+  color: var(--coal);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px dotted var(--shade-24-dark);
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-upper {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.cart-item-name {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.cart-dotted-line {
+  flex: 1;
+  border-bottom: 2px dotted var(--coal);
+}
+
+.cart-item-price {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+}
+
+.cart-item-lower {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cart-item-quantity {
+  font-size: var(--font-size-small);
+}
+
+.cart-button {
+  color: var(--coal);
+  background-color: var(--shade-24-dark);
+  font-size: var(--font-size-small);
+  border-radius: 50%;
+  font-weight: var(--font-weight-bold);
+  padding-inline: 1.2rem;
+}
+
+.cart-button:active {
+  color: var(--snow);
+}
+
+.cart-price-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--shade-24-dark);
+  border-radius: 4px;
+  padding: 16px;
+  align-items: center;
+  margin: 1rem;
+}
+
+.cart-price-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cart-price-text > h2 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}
+.cart-price-text > p {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  margin: 0;
+}
+
+.cart-total {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.cart-checkout-container {
+  padding: 1rem;
+}
+.cart-checkout {
+  background-color: var(--shade-24-dark);
+  border-radius: 4px;
+  padding-block: 3rem;
+  width: 100%;
+  color: var(--coal);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+}
+
+.cart-checkout:active {
+  color: var(--snow);
+}

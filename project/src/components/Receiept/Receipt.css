@@ -1,0 +1,79 @@
+.receipt-modal {
+  background-color: var(--snow);
+  border-color: var(--snow);
+  width: 70dvw;
+  min-height: 70dvh;
+}
+
+.receipt-logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.new-order-button {
+  background-color: var(--coal);
+}
+
+.receipt-item {
+  margin-block: 1rem;
+}
+
+.receipt-item-upper {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  text-transform: uppercase;
+}
+
+.receipt-item-upper h2 {
+  margin: 0;
+}
+
+.receipt-item-upper p {
+  margin: 0;
+}
+
+.receipt-dotted-line {
+  flex: 1;
+  border-bottom: 2px dotted var(--coal);
+}
+
+.receipt-item-lower {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.receipt-item-lower p {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: var(--font-size-small);
+  margin: 0;
+}
+
+.receipt-total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.receipt-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.receipt-total-text {
+  margin: 0;
+}
+
+.receipt-total-vat {
+  margin: 0;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+}
+
+.receipt-total-value {
+  font-size: var(--font-size-large);
+}

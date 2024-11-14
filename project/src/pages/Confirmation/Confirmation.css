@@ -1,0 +1,46 @@
+.confirmation-main {
+  min-height: 100dvh;
+  background-color: var(--clay);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.box-image {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.order-title {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.eta-text {
+  font-size: var(--font-size-medium);
+  text-transform: uppercase;
+}
+
+.order-id {
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+}
+
+.confirmation-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.confirmation-button {
+  background-color: var(--shade-24-light);
+  border-radius: 4px;
+  padding-block: 2rem;
+  min-width: 400px;
+  color: var(--snow);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+}

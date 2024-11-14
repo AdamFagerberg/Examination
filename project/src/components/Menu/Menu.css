@@ -1,0 +1,77 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-section {
+  background-color: var(--clay);
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.menu-list {
+  margin: 0;
+}
+
+.label-container {
+  display: flex;
+  gap: 0 1rem;
+  flex-wrap: wrap;
+  padding-inline: 1rem;
+}
+
+.menu-item {
+  padding-bottom: 1rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  padding-inline: 1.5rem;
+}
+
+.item-name {
+  margin: 0;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+}
+
+.dotted-line {
+  flex: 1;
+  border-bottom: 2px dotted var(--snow);
+  margin: 0 8px;
+  position: relative;
+}
+
+.item-price {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+}
+
+.item-text {
+  font-size: var(--font-size-small);
+  padding-inline: 1.5rem;
+}
+
+.wontons .menu-item {
+  border-bottom: 1px dotted var(--shade-24-light);
+}
+
+.wontons .menu-item:last-child {
+  border-bottom: none;
+}
+
+.wontons .menu-item:active {
+  background-color: var(--coal);
+  transition: 0s;
+}
+
+.wontons .menu-item:active:first-child {
+  border-radius: 8px 8px 0 0;
+}
+.wontons .menu-item:active:last-child {
+  border-radius: 0 0 8px 8px;
+}
